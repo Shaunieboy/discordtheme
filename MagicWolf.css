@@ -1,0 +1,42 @@
+/* //META {"name": "MagicWolf", "description": "Dark Theme with a bad ass fuckin wolf, enjoy it kiddie.", "author": "! Pure#4236", "version": "1"} *//**/
+
+/* IMPORT CSS FROM GITHUB */
+@import url(https://zerthox.github.io/ClearVision/css/ClearVision_v5.min.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE BETWEEN DARK AND LIGHT VERSION IN APPEARANCE SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+============== CUSTOMIZABLE COLORS ===============
+*/
+:root {
+	--main-color: #353434;
+	--hover-color: #bc0000;
+    --background-blur: 0px;
+    --background-brightness: 100%;
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+========= CUSTOMIZABLE BACKGROUND IMAGE ==========
+*/
+body::after,
+.callout-backdrop,
+.userPopout-11hFKo::before,
+.userPopout-3XzG_A::before,
+.root-SR8cQa::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label {
+    background-image: url(https://i.imgur.com/oI6zRBA.png) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+/*
+--------------------------------------------------------------------------------------------------------------------------------------------
+*/
